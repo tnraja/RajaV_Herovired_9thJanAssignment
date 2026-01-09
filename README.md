@@ -2,7 +2,7 @@
 
 # Step 1:
 
-Create two EC2 instances with the tag "Auto-Start and Auto-Stop."
+# Create two EC2 instances with the tag "Auto-Start and Auto-Stop."
 
 Output:
 
@@ -22,18 +22,26 @@ Output:
 
 # Step 3
 
-Lambda function tested successfully,
+# Lambda function tested successfully,
 
 Output:
 
 <img width="1906" height="852" alt="image" src="https://github.com/user-attachments/assets/05f34946-02eb-48ef-9285-777b15c9b05f" />
 
-In Lambda, CloudWatch Logs :
+# In Lambda, CloudWatch Logs :
 <img width="1906" height="848" alt="image" src="https://github.com/user-attachments/assets/b16a1362-1870-4686-863d-6766a1ba1055" />
 
-Result :
+# Result :
 
 <img width="1917" height="848" alt="image" src="https://github.com/user-attachments/assets/05b69784-a290-4c4d-9471-330f11417655" />
+
+
+
+
+
+
+
+
 
 
 # ****** Assignment 2: Analyze Sentiment of User Reviews Using AWS Lambda, Boto3, and Amazon Comprehend ******
@@ -41,7 +49,7 @@ Result :
 
 # Step 1
 
-IAM Role Creation
+# IAM Role Creation
 
 Output:
 
@@ -49,7 +57,7 @@ Output:
 
 # Step 2
 
-Lambda Function Created and tested successfully 
+# Lambda Function Created and tested successfully 
 
 Output:
 
@@ -67,11 +75,19 @@ Output:
 
 <img width="1887" height="858" alt="image" src="https://github.com/user-attachments/assets/ea1251c9-8ae9-473e-ae7b-b4b496394b99" />
 
+
+
+
+
+
+
+
+
 # ****** Assignment 3: Automatic EBS Snapshot and Cleanup Using AWS Lambda and Boto3 ******
 
 # Step 1
 
-EBS Volume Creation
+# EBS Volume Creation
 
 <img width="1897" height="770" alt="image" src="https://github.com/user-attachments/assets/1ca5d408-d583-4f50-9be6-64c1608b215e" />
 
@@ -81,18 +97,25 @@ EBS Volume Creation
 
 # Step 3
 
-Schedule with EventBridge
+# Schedule with EventBridge
 
 <img width="1910" height="863" alt="image" src="https://github.com/user-attachments/assets/f4773466-26d2-4dd0-b926-004cb99bc3b5" />
 
 <img width="1888" height="816" alt="image" src="https://github.com/user-attachments/assets/ad920ad7-aee8-4586-93da-ea79a1f6ccd6" />
 
 
+
+
+
+
+
+
+
 # ****** Assignment 4: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3 ******
 
 # Step 1
 
-S3 Bucket Creations
+# S3 Bucket Creations
 
 <img width="1901" height="835" alt="image" src="https://github.com/user-attachments/assets/f8c56d85-c77d-41ab-ad75-07e9f77c0f7d" />
 
@@ -106,7 +129,7 @@ Files are uploading to the bucket :
 
 # Step 2
 
-Lambda IAM Role Setup
+# Lambda IAM Role Setup
 
 <img width="1897" height="811" alt="image" src="https://github.com/user-attachments/assets/75af7af0-9098-4063-aa52-90b8d00f7425" />
 
@@ -146,6 +169,7 @@ Request ID: 0069b6b2-718e-45e6-8c20-5b83186d210a
 
 **Observation**: All files remained in S3 bucket after Lambda execution.
 **Root Cause**: No objects had LastModified timestamp older than 30 days from current date.
+**Lambda logic executed correctly**
 
 
 
